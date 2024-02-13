@@ -236,10 +236,10 @@
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
-    speed: 1500,
+    speed: 100,
     loop: true,
     autoplay: {
-      delay: 1500,
+      delay: 5000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -255,7 +255,7 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 5000,
       easing: 'ease-in-out',
       once: true,
       mirror: false
