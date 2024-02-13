@@ -239,7 +239,7 @@
     speed: 1500,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 1500,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -255,7 +255,7 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 5000,
+      duration: 1000,
       easing: 'ease-in-out',
       once: true,
       mirror: false
